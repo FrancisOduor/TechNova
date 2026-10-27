@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | TechNova Solutions</title>
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .login-box {
+      background: white;
+      padding: 35px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .login-box h2 {
+      color: #37517e;
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .login-box p {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .form-control {
+      padding: 12px;
+      margin-bottom: 18px;
+    }
+
+    .login-btn {
+      background: #47b2e4;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .login-btn:hover {
+      background: #37517e;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #37517e;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="login-box">
+
+    <h2>TechNova Solutions</h2>
+    <p>Login to your account</p>
+
+    <form action="#" method="post">
+
+      <label for="email" class="form-label">Email Address</label>
+      <input type="email" id="email" name="email"
+        class="form-control" placeholder="Enter your email" required>
+
+      <label for="password" class="form-label">Password</label>
+      <input type="password" id="password" name="password"
+        class="form-control" placeholder="Enter your password" required>
+
+      <div class="d-flex justify-content-between mb-3">
+        <div>
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember me</label>
+        </div>
+        <a href="#" style="text-decoration:none;">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="login-btn">Login</button>
+
+    </form>
+
+    <a href="index.html" class="back-link">
+      ← Back to Home
+    </a>
+
+  </div>
+
+</body>
+</html>
